@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  /* box model */
+  margin: 0;
+  padding-top: 57px;
+  padding-left: 72px;
+  background-color: rgb(248, 248, 248);
+  /* manipulation */
+  transition: padding-left 0.5s;
+}
+/* @media (min-width: 1400px) {
+  body {
+    padding-left: 200px;
+  }
+} */
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+footer {
+  height: 200px;
+}
